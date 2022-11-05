@@ -19,6 +19,11 @@
     font-weight: 600;
 }
 
+.logo span:hover{
+    color: var(--pink);
+    cursor: pointer;
+}
+
 .right{
     display: flex;
     gap: 2rem;
@@ -50,4 +55,7 @@
     width: 1.5rem;
     height: 1.5rem;
     cursor: pointer;
+}
+.cart:hover{
+    transform: scale(1.1);
 }

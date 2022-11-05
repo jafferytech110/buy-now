@@ -49,6 +49,10 @@
     cursor: pointer;
 }
 
+.cart2>svg:nth-child(1):hover, .signup:hover{
+    transform: scale(1.1);
+}
+
 .signup{
     display: flex;
     align-items: center;
