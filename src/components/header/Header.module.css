@@ -43,6 +43,8 @@
     cursor: pointer;
 }
 
+.bars{display: none;}
+
 .search{
     width: 7rem;
     outline: none;
@@ -59,3 +61,36 @@
 .cart:hover{
     transform: scale(1.1);
 }
+
+@media screen and (max-width: 480px) {
+    .right{
+        position: absolute;
+        right: 4rem;
+        z-index: 999;
+        background-color: white;
+        color: var(--black);
+        border-radius: 5px;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .menu{
+        flex-direction: column;
+        margin-left: -2rem;
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+
+    .search{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .right{
+        position: absolute;
+        right: 2rem;
+
+    }}

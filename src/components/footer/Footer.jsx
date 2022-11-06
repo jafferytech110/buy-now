@@ -71,8 +71,8 @@ const Footer = () => {
             </div>
         </div>
         <div className={css.copyRight}>
-                <span>no copyright &#169; 2022</span>
-                <span>no rights reserved from jaffeyTech110</span>
+                <span>No copyright &#169; 2022</span>
+                <span>No rights reserved from jaffeyTech110</span>
          </div>
 
     </div>

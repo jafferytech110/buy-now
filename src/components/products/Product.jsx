@@ -25,7 +25,7 @@ const Product = () => {
             <div className={css.list} ref={parent}>
                 {
                     MenuProducts.map((product,index) => (
-                        <div className={css.product}>
+                        <div className={css.product} key={index}>
                             <div className="left-s">
                                 <div className="name">
                                     <span>{product.name}</span>

@@ -29,7 +29,7 @@ const Testmonials = () => {
                 >
                     {
                         TestimonialsData.map((testimonial, index) => (
-                            <SwiperSlide>
+                            <SwiperSlide key={index}>
                                 <div className={css.testimonial}>
                                     <img src={testimonial.image} alt={testimonial.name} />
                                     <span>{testimonial.comment}</span>

@@ -22,7 +22,7 @@ const Slider = () => {
             loop={true} >
                 {SliderProducts.map((slide, i) => {
                     return (
-                        <SwiperSlide>
+                        <SwiperSlide key={i}>
                             <div className="left-s">
                                 <div className="name">
                                     <span>
